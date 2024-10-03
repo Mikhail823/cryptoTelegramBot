@@ -9778,3 +9778,26 @@ Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concu
 03-10-2024 09:45:03.013 [scheduling-1] 19786 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 61312,428
 03-10-2024 09:47:02.151 [scheduling-1] 19786 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
 03-10-2024 09:47:02.515 [scheduling-1] 19786 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 61370,204
+03-10-2024 09:49:02.151 [scheduling-1] 19786 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 09:49:02.537 [scheduling-1] 19786 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 61398,862
+03-10-2024 09:49:02.540 [task-2] 19786 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 09:51:02.151 [scheduling-1] 19786 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 09:51:02.546 [scheduling-1] 19786 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 61398,446
+03-10-2024 09:53:02.153 [scheduling-1] 19786 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 09:53:02.509 [scheduling-1] 19786 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 61396,956
+03-10-2024 09:55:02.151 [scheduling-1] 19786 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 09:55:02.476 [scheduling-1] 19786 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 61367,599
+03-10-2024 09:57:02.151 [scheduling-1] 19786 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 09:57:02.486 [scheduling-1] 19786 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 61351,277
+03-10-2024 09:59:02.151 [scheduling-1] 19786 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 09:59:02.464 [scheduling-1] 19786 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 61346,787
+03-10-2024 09:59:02.466 [task-3] 19786 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 10:01:02.151 [scheduling-1] 19786 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 10:01:02.467 [scheduling-1] 19786 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 61345,431
+03-10-2024 10:03:02.151 [scheduling-1] 19786 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 10:03:02.530 [scheduling-1] 19786 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 61339,464
+03-10-2024 10:05:02.151 [scheduling-1] 19786 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 10:05:02.462 [scheduling-1] 19786 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 61346,592
+03-10-2024 10:06:59.538 [SpringApplicationShutdownHook] 19786 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 10:06:59.633 [SpringApplicationShutdownHook] 19786 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+03-10-2024 10:06:59.724 [SpringApplicationShutdownHook] 19786 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

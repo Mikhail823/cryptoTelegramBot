@@ -20,8 +20,8 @@ telegram:
   bot:
 #    не вписывайте данные, так как можете отправить в публичный репозиторий
 #    используйте переменные среды для установки значений
-    username: my_socolova_bot
-    token: 7620218597:AAEdN9NqiMTfFWCZo8ICe1K7rJeouCpp1LQ
+    username: $BOT_NAME
+    token: $BOT_TOKEN
     notify:
       delay:
         value: 10
