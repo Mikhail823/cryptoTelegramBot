@@ -39,7 +39,7 @@ public class MailingService {
     private final BinanceClient binanceClient;
     private PriceDto total = new PriceDto();
 
-    @Scheduled(fixedRate = 120000)
+    @Scheduled(initialDelayString = "${interval.init.delay}", fixedRateString = "${interval.getPrice}")
     public void checkingСostBitcoin(){
         try {
             total.setPrice(binanceClient.getBitcoinPrice());
@@ -49,7 +49,8 @@ public class MailingService {
         }
     }
 
-    @Scheduled(fixedRate = 4000)
+    @Scheduled(initialDelayString = "${interval.init.delay}",
+            fixedRate = 600000)
     @Async
     public void sendingNotificationsSubscribers(){
         log.info("Рассылка уведомлений");

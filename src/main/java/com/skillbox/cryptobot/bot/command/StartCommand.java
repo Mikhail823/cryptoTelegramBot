@@ -36,9 +36,6 @@ public class StartCommand implements IBotCommand {
     public void processMessage(AbsSender absSender, Message message, String[] arguments) {
         SendMessage answer = new SendMessage();
         answer.setChatId(message.getChatId());
-        for (String d : arguments){
-            log.info(d);
-        }
         answer.setText("""
                 Привет! Данный бот помогает отслеживать стоимость биткоина.
                 Поддерживаемые команды:

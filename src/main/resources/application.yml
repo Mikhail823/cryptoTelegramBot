@@ -30,3 +30,8 @@ telegram:
 binance:
   api:
     getPrice: https://api.binance.com/api/v3/avgPrice?symbol=BTCUSDT
+
+interval:
+  getPrice: 120000
+  init:
+    delay: 60000
