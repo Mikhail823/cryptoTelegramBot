@@ -1,0 +1,1555 @@
+03-10-2024 00:13:25.165 [main] 20005 INFO  c.s.cryptobot.CryptoBotApplication.logStarting - Starting CryptoBotApplication using Java 17.0.12 with PID 20005 (/home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot/build/classes/java/main started by mikhail in /home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot)
+03-10-2024 00:13:25.180 [main] 20005 INFO  c.s.cryptobot.CryptoBotApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+03-10-2024 00:13:27.288 [main] 20005 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+03-10-2024 00:13:27.543 [main] 20005 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 223 ms. Found 1 JPA repository interfaces.
+03-10-2024 00:13:29.299 [main] 20005 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+03-10-2024 00:13:29.509 [main] 20005 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.3.1.Final
+03-10-2024 00:13:29.704 [main] 20005 INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+03-10-2024 00:13:30.590 [main] 20005 INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+03-10-2024 00:13:30.685 [main] 20005 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+03-10-2024 00:13:31.688 [main] 20005 INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4262fdeb
+03-10-2024 00:13:31.740 [main] 20005 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+03-10-2024 00:13:35.780 [main] 20005 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+03-10-2024 00:13:35.844 [main] 20005 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - SQL Warning Code: 0, SQLState: 00000
+03-10-2024 00:13:35.845 [main] 20005 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - table "subscribers" does not exist, skipping
+03-10-2024 00:13:35.987 [main] 20005 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:13:39.886 [scheduling-1] 20005 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:13:39.894 [main] 20005 INFO  c.s.cryptobot.CryptoBotApplication.logStarted - Started CryptoBotApplication in 16.176 seconds (process running for 18.158)
+03-10-2024 00:13:40.356 [my_socolova_bot Telegram Executor] 20005 INFO  c.skillbox.cryptobot.bot.CryptoBot.processNonCommandUpdate - TExt: l
+03-10-2024 00:13:40.584 [scheduling-1] 20005 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60737,460
+03-10-2024 00:13:40.646 [task-1] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:13:43.882 [task-2] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:13:47.882 [task-3] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:13:51.881 [task-4] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:13:55.882 [task-5] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:13:59.882 [task-6] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:14:03.882 [task-7] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:14:07.883 [task-8] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:14:11.881 [task-1] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:14:14.769 [my_socolova_bot Telegram Executor] 20005 INFO  c.skillbox.cryptobot.bot.CryptoBot.processNonCommandUpdate - TExt: ц
+03-10-2024 00:14:15.881 [task-2] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:14:19.881 [task-3] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:14:23.887 [task-4] 20005 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:14:25.337 [SpringApplicationShutdownHook] 20005 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:14:25.445 [SpringApplicationShutdownHook] 20005 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+03-10-2024 00:14:25.499 [SpringApplicationShutdownHook] 20005 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+03-10-2024 00:14:47.229 [main] 20176 INFO  c.s.cryptobot.CryptoBotApplication.logStarting - Starting CryptoBotApplication using Java 17.0.12 with PID 20176 (/home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot/build/classes/java/main started by mikhail in /home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot)
+03-10-2024 00:14:47.243 [main] 20176 INFO  c.s.cryptobot.CryptoBotApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+03-10-2024 00:14:49.540 [main] 20176 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+03-10-2024 00:14:50.010 [main] 20176 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 430 ms. Found 1 JPA repository interfaces.
+03-10-2024 00:14:51.895 [main] 20176 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+03-10-2024 00:14:52.100 [main] 20176 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.3.1.Final
+03-10-2024 00:14:52.329 [main] 20176 INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+03-10-2024 00:14:53.228 [main] 20176 INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+03-10-2024 00:14:53.329 [main] 20176 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+03-10-2024 00:14:54.318 [main] 20176 INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4262fdeb
+03-10-2024 00:14:54.377 [main] 20176 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+03-10-2024 00:14:58.011 [main] 20176 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+03-10-2024 00:14:58.085 [main] 20176 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - SQL Warning Code: 0, SQLState: 00000
+03-10-2024 00:14:58.087 [main] 20176 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - table "subscribers" does not exist, skipping
+03-10-2024 00:14:58.215 [main] 20176 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:15:01.979 [scheduling-1] 20176 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:15:01.981 [main] 20176 INFO  c.s.cryptobot.CryptoBotApplication.logStarted - Started CryptoBotApplication in 16.329 seconds (process running for 18.893)
+03-10-2024 00:15:02.575 [scheduling-1] 20176 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60737,126
+03-10-2024 00:15:02.610 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:05.976 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:09.976 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:13.976 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:17.976 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:21.980 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:25.977 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:29.977 [task-8] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:33.976 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:37.975 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:41.975 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:45.975 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:49.975 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:53.978 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:15:57.977 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:01.979 [task-8] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:05.975 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:09.977 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:13.975 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:17.977 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:21.975 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:25.975 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:29.976 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:33.975 [task-8] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:37.975 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:41.978 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:45.976 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:49.975 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:53.978 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:16:57.975 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:01.974 [scheduling-1] 20176 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:17:02.357 [scheduling-1] 20176 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60722,772
+03-10-2024 00:17:02.359 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:05.976 [task-8] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:09.978 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:13.975 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:17.975 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:21.975 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:25.975 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:29.977 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:33.976 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:37.975 [task-8] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:41.976 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:45.977 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:49.975 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:53.975 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:17:57.979 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:01.977 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:05.978 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:09.977 [task-8] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:13.975 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:17.975 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:21.979 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:25.978 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:29.975 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:33.975 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:37.975 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:41.975 [task-8] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:45.975 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:49.976 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:53.975 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:18:57.976 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:01.974 [scheduling-1] 20176 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:19:02.374 [scheduling-1] 20176 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60708,058
+03-10-2024 00:19:02.379 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:05.975 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:09.977 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:13.979 [task-8] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:17.975 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:21.975 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:25.975 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:29.975 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:33.977 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:37.975 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:41.975 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:45.975 [task-8] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:49.975 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:53.975 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:19:57.975 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:01.976 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:05.975 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:09.975 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:13.981 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:17.975 [task-8] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:21.976 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:25.975 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:29.975 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:33.975 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:37.975 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:41.975 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:45.979 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:49.975 [task-8] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:53.975 [task-1] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:20:57.975 [task-2] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:21:01.974 [scheduling-1] 20176 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:21:02.385 [scheduling-1] 20176 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60713,527
+03-10-2024 00:21:02.387 [task-3] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:21:05.975 [task-4] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:21:09.976 [task-5] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:21:13.975 [task-6] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:21:17.976 [task-7] 20176 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:21:18.903 [SpringApplicationShutdownHook] 20176 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:21:18.998 [SpringApplicationShutdownHook] 20176 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+03-10-2024 00:21:19.033 [SpringApplicationShutdownHook] 20176 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+03-10-2024 00:21:30.667 [main] 20455 INFO  c.s.cryptobot.CryptoBotApplication.logStarting - Starting CryptoBotApplication using Java 17.0.12 with PID 20455 (/home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot/build/classes/java/main started by mikhail in /home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot)
+03-10-2024 00:21:30.709 [main] 20455 INFO  c.s.cryptobot.CryptoBotApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+03-10-2024 00:21:33.362 [main] 20455 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+03-10-2024 00:21:33.810 [main] 20455 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 410 ms. Found 1 JPA repository interfaces.
+03-10-2024 00:21:36.150 [main] 20455 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+03-10-2024 00:21:36.386 [main] 20455 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.3.1.Final
+03-10-2024 00:21:36.633 [main] 20455 INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+03-10-2024 00:21:37.787 [main] 20455 INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+03-10-2024 00:21:38.007 [main] 20455 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+03-10-2024 00:21:39.406 [main] 20455 INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4262fdeb
+03-10-2024 00:21:39.417 [main] 20455 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+03-10-2024 00:21:44.351 [main] 20455 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+03-10-2024 00:21:44.440 [main] 20455 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - SQL Warning Code: 0, SQLState: 00000
+03-10-2024 00:21:44.442 [main] 20455 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - table "subscribers" does not exist, skipping
+03-10-2024 00:21:44.567 [main] 20455 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:21:50.605 [scheduling-1] 20455 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:21:50.623 [main] 20455 INFO  c.s.cryptobot.CryptoBotApplication.logStarted - Started CryptoBotApplication in 21.677 seconds (process running for 23.713)
+03-10-2024 00:21:51.359 [scheduling-1] 20455 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60726,173
+03-10-2024 00:21:51.449 [task-1] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:21:54.607 [task-2] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:21:58.607 [task-3] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:02.607 [task-4] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:06.607 [task-5] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:10.607 [task-6] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:12.127 [my_socolova_bot Telegram Executor] 20455 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:22:14.607 [task-7] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:18.608 [task-8] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:19.135 [my_socolova_bot Telegram Executor] 20455 ERROR o.t.t.u.DefaultBotSession.run - Cannot invoke "com.skillbox.cryptobot.model.Subscribers.getPrice()" because "subscription" is null
+java.lang.NullPointerException: Cannot invoke "com.skillbox.cryptobot.model.Subscribers.getPrice()" because "subscription" is null
+	at com.skillbox.cryptobot.bot.command.GetSubscriptionCommand.getSubscription(GetSubscriptionCommand.java:43)
+	at com.skillbox.cryptobot.bot.command.GetSubscriptionCommand.processMessage(GetSubscriptionCommand.java:33)
+	at org.telegram.telegrambots.extensions.bots.commandbot.commands.CommandRegistry.executeCommand(CommandRegistry.java:109)
+	at org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot.onUpdateReceived(TelegramLongPollingCommandBot.java:104)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:312)
+03-10-2024 00:22:22.606 [task-1] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:26.606 [task-2] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:30.607 [task-3] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:34.606 [task-4] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:38.606 [task-5] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:42.606 [task-6] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:46.606 [task-7] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:50.606 [task-8] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:54.606 [task-1] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:22:58.606 [task-2] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:02.606 [task-3] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:06.606 [task-4] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:10.606 [task-5] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:14.606 [task-6] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:14.634 [task-6] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:23:18.606 [task-7] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:18.617 [task-7] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:23:22.606 [task-8] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:22.617 [task-8] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:23:26.606 [task-1] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:26.617 [task-1] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:23:30.606 [task-2] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:30.616 [task-2] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:23:34.606 [task-3] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:34.616 [task-3] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:23:38.610 [task-4] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:38.635 [task-4] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:23:42.606 [task-5] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:42.619 [task-5] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:23:46.606 [task-6] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:46.616 [task-6] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:23:50.603 [scheduling-1] 20455 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:23:50.941 [scheduling-1] 20455 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60746,525
+03-10-2024 00:23:50.943 [task-7] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:50.955 [task-7] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:23:54.606 [task-8] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:54.617 [task-8] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:23:58.606 [task-1] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:23:58.618 [task-1] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:02.608 [task-2] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:02.634 [task-2] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:06.606 [task-3] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:06.617 [task-3] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:10.606 [task-4] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:10.633 [task-4] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:14.606 [task-5] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:14.616 [task-5] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:18.608 [task-6] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:18.637 [task-6] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:22.606 [task-7] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:22.616 [task-7] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:26.606 [task-8] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:26.616 [task-8] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:30.606 [task-1] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:30.632 [task-1] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:34.606 [task-2] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:34.616 [task-2] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:38.610 [task-3] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:38.629 [task-3] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:42.606 [task-4] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:42.621 [task-4] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:46.606 [task-5] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:46.615 [task-5] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:50.606 [task-6] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:50.616 [task-6] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:54.606 [task-7] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:54.616 [task-7] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:24:58.606 [task-8] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:24:58.617 [task-8] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:02.606 [task-1] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:02.618 [task-1] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:06.606 [task-2] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:06.617 [task-2] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:10.607 [task-3] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:10.621 [task-3] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:14.606 [task-4] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:14.626 [task-4] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:18.606 [task-5] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:18.620 [task-5] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:22.606 [task-6] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:22.617 [task-6] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:26.607 [task-7] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:26.618 [task-7] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:30.606 [task-8] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:30.615 [task-8] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:34.615 [task-1] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:34.652 [task-1] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:38.606 [task-2] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:38.619 [task-2] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:42.606 [task-3] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:42.615 [task-3] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:46.606 [task-4] 20455 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:25:46.618 [task-4] 20455 ERROR o.s.a.i.SimpleAsyncUncaughtExceptionHandler.handleUncaughtException - Unexpected exception occurred invoking async method: public void com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers()
+java.lang.NullPointerException: Cannot invoke "java.lang.Double.doubleValue()" because the return value of "com.skillbox.cryptobot.model.Subscribers.getPrice()" is null
+	at com.skillbox.cryptobot.service.MailingService.lambda$sendingNotificationsSubscribers$0(MailingService.java:58)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.skillbox.cryptobot.service.MailingService.sendingNotificationsSubscribers(MailingService.java:58)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.AsyncExecutionInterceptor.lambda$invoke$0(AsyncExecutionInterceptor.java:115)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+03-10-2024 00:25:47.997 [SpringApplicationShutdownHook] 20455 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:25:48.107 [SpringApplicationShutdownHook] 20455 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+03-10-2024 00:25:48.159 [SpringApplicationShutdownHook] 20455 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+03-10-2024 00:25:59.325 [main] 20706 INFO  c.s.cryptobot.CryptoBotApplication.logStarting - Starting CryptoBotApplication using Java 17.0.12 with PID 20706 (/home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot/build/classes/java/main started by mikhail in /home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot)
+03-10-2024 00:25:59.346 [main] 20706 INFO  c.s.cryptobot.CryptoBotApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+03-10-2024 00:26:01.667 [main] 20706 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+03-10-2024 00:26:01.965 [main] 20706 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 258 ms. Found 1 JPA repository interfaces.
+03-10-2024 00:26:04.757 [main] 20706 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+03-10-2024 00:26:05.158 [main] 20706 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.3.1.Final
+03-10-2024 00:26:05.445 [main] 20706 INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+03-10-2024 00:26:06.645 [main] 20706 INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+03-10-2024 00:26:06.771 [main] 20706 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+03-10-2024 00:26:07.885 [main] 20706 INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c770db4
+03-10-2024 00:26:07.900 [main] 20706 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+03-10-2024 00:26:12.185 [main] 20706 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+03-10-2024 00:26:12.258 [main] 20706 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - SQL Warning Code: 0, SQLState: 00000
+03-10-2024 00:26:12.260 [main] 20706 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - table "subscribers" does not exist, skipping
+03-10-2024 00:26:12.376 [main] 20706 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:26:16.243 [main] 20706 INFO  c.s.cryptobot.CryptoBotApplication.logStarted - Started CryptoBotApplication in 18.625 seconds (process running for 21.076)
+03-10-2024 00:26:16.243 [scheduling-1] 20706 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:26:16.763 [my_socolova_bot Telegram Executor] 20706 ERROR o.t.t.u.DefaultBotSession.run - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at com.skillbox.cryptobot.bot.CryptoBot.checkingCommands(CryptoBot.java:44)
+	at com.skillbox.cryptobot.bot.CryptoBot.processNonCommandUpdate(CryptoBot.java:40)
+	at org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot.onUpdateReceived(TelegramLongPollingCommandBot.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:312)
+03-10-2024 00:26:16.969 [scheduling-1] 20706 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60769,496
+03-10-2024 00:26:17.015 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:26:20.237 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:26:24.237 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:26:28.237 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:26:32.236 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:26:36.237 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:26:40.237 [task-7] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:26:44.237 [task-8] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:26:48.236 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:26:52.236 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:26:56.236 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:00.236 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:04.236 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:08.236 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:12.236 [task-7] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:16.236 [task-8] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:20.236 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:24.235 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:28.235 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:32.236 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:36.236 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:40.236 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:44.236 [task-7] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:48.236 [task-8] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:51.824 [my_socolova_bot Telegram Executor] 20706 ERROR o.t.t.u.DefaultBotSession.run - Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+java.lang.NullPointerException: Cannot invoke "org.telegram.telegrambots.meta.api.objects.Message.getText()" because the return value of "org.telegram.telegrambots.meta.api.objects.Update.getMessage()" is null
+	at com.skillbox.cryptobot.bot.CryptoBot.checkingCommands(CryptoBot.java:44)
+	at com.skillbox.cryptobot.bot.CryptoBot.processNonCommandUpdate(CryptoBot.java:40)
+	at org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot.onUpdateReceived(TelegramLongPollingCommandBot.java:111)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:312)
+03-10-2024 00:27:52.236 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:56.235 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:27:56.266 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:00.241 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:00.268 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:04.236 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:04.247 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:08.236 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:08.245 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:12.235 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:12.245 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:16.234 [scheduling-1] 20706 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:28:17.081 [scheduling-1] 20706 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60781,881
+03-10-2024 00:28:17.082 [task-7] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:17.091 [task-7] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:20.236 [task-8] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:20.248 [task-8] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:24.236 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:24.249 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:28.236 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:28.246 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:32.238 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:32.252 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:36.236 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:36.247 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:40.236 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:40.248 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:44.235 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:44.247 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:48.236 [task-7] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:48.246 [task-7] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:52.236 [task-8] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:52.247 [task-8] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:28:56.235 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:28:56.245 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:00.236 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:00.251 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:01.306 [my_socolova_bot Telegram Executor] 20706 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:29:04.236 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:04.246 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:08.236 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:08.246 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:12.236 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:12.248 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:14.346 [my_socolova_bot Telegram Executor] 20706 ERROR o.t.t.u.DefaultBotSession.run - Query did not return a unique result: 2 results were returned
+org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:280)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:232)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:243)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)
+	at jdk.proxy2/jdk.proxy2.$Proxy96.findByUserId(Unknown Source)
+	at com.skillbox.cryptobot.bot.command.SubscribeCommand.savePriceUser(SubscribeCommand.java:55)
+	at com.skillbox.cryptobot.bot.command.SubscribeCommand.processMessage(SubscribeCommand.java:47)
+	at org.telegram.telegrambots.extensions.bots.commandbot.commands.CommandRegistry.executeCommand(CommandRegistry.java:109)
+	at org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot.onUpdateReceived(TelegramLongPollingCommandBot.java:104)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:312)
+Caused by: org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:581)
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:565)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:405)
+	at jdk.proxy2/jdk.proxy2.$Proxy111.getSingleResult(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:223)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:92)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:149)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 14 common frames omitted
+03-10-2024 00:29:16.236 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:16.247 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:20.236 [task-7] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:20.246 [task-7] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:24.235 [task-8] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:24.247 [task-8] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:28.235 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:28.245 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:32.236 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:32.247 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:36.236 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:36.248 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:40.236 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:40.248 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:44.236 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:44.245 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:48.236 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:48.244 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:52.236 [task-7] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:52.247 [task-7] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:29:56.237 [task-8] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:29:56.251 [task-8] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:30:00.236 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:30:00.246 [task-1] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:30:04.235 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:30:04.244 [task-2] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:30:08.236 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:30:08.246 [task-3] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:30:11.785 [my_socolova_bot Telegram Executor] 20706 ERROR o.t.t.u.DefaultBotSession.run - Query did not return a unique result: 2 results were returned
+org.springframework.dao.IncorrectResultSizeDataAccessException: Query did not return a unique result: 2 results were returned
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:280)
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:232)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:550)
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61)
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:243)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:135)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244)
+	at jdk.proxy2/jdk.proxy2.$Proxy96.findByUserId(Unknown Source)
+	at com.skillbox.cryptobot.bot.command.GetSubscriptionCommand.getSubscription(GetSubscriptionCommand.java:41)
+	at com.skillbox.cryptobot.bot.command.GetSubscriptionCommand.processMessage(GetSubscriptionCommand.java:33)
+	at org.telegram.telegrambots.extensions.bots.commandbot.commands.CommandRegistry.executeCommand(CommandRegistry.java:109)
+	at org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot.onUpdateReceived(TelegramLongPollingCommandBot.java:104)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.telegram.telegrambots.meta.generics.LongPollingBot.onUpdatesReceived(LongPollingBot.java:27)
+	at org.telegram.telegrambots.updatesreceivers.DefaultBotSession$HandlerThread.run(DefaultBotSession.java:312)
+Caused by: org.hibernate.NonUniqueResultException: Query did not return a unique result: 2 results were returned
+	at org.hibernate.query.spi.AbstractSelectionQuery.uniqueElement(AbstractSelectionQuery.java:581)
+	at org.hibernate.query.spi.AbstractSelectionQuery.getSingleResult(AbstractSelectionQuery.java:565)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:405)
+	at jdk.proxy2/jdk.proxy2.$Proxy111.getSingleResult(Unknown Source)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$SingleEntityExecution.doExecute(JpaQueryExecution.java:223)
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:92)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:149)
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:137)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136)
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:164)
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	... 14 common frames omitted
+03-10-2024 00:30:12.236 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:30:12.246 [task-4] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:30:16.235 [scheduling-1] 20706 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:30:16.547 [scheduling-1] 20706 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60814,122
+03-10-2024 00:30:16.548 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:30:16.557 [task-5] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:30:20.236 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:30:20.245 [task-6] 20706 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:30:23.627 [SpringApplicationShutdownHook] 20706 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:30:23.755 [SpringApplicationShutdownHook] 20706 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+03-10-2024 00:30:23.809 [SpringApplicationShutdownHook] 20706 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+03-10-2024 00:31:32.493 [main] 21394 INFO  c.s.cryptobot.CryptoBotApplication.logStarting - Starting CryptoBotApplication using Java 17.0.12 with PID 21394 (/home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot/build/classes/java/main started by mikhail in /home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot)
+03-10-2024 00:31:32.507 [main] 21394 INFO  c.s.cryptobot.CryptoBotApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+03-10-2024 00:31:35.005 [main] 21394 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+03-10-2024 00:31:35.277 [main] 21394 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 237 ms. Found 1 JPA repository interfaces.
+03-10-2024 00:31:37.042 [main] 21394 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+03-10-2024 00:31:37.245 [main] 21394 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.3.1.Final
+03-10-2024 00:31:37.423 [main] 21394 INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+03-10-2024 00:31:38.380 [main] 21394 INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+03-10-2024 00:31:38.464 [main] 21394 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+03-10-2024 00:31:39.283 [main] 21394 INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3e046e39
+03-10-2024 00:31:39.320 [main] 21394 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+03-10-2024 00:31:43.265 [main] 21394 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+03-10-2024 00:31:43.336 [main] 21394 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - SQL Warning Code: 0, SQLState: 00000
+03-10-2024 00:31:43.338 [main] 21394 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - table "subscribers" does not exist, skipping
+03-10-2024 00:31:43.499 [main] 21394 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:31:46.999 [scheduling-1] 21394 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:31:47.002 [main] 21394 INFO  c.s.cryptobot.CryptoBotApplication.logStarted - Started CryptoBotApplication in 16.099 seconds (process running for 17.719)
+03-10-2024 00:31:47.734 [scheduling-1] 21394 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60854,404
+03-10-2024 00:31:47.782 [task-1] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:31:50.998 [task-2] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:31:51.036 [task-2] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:31:52.460 [my_socolova_bot Telegram Executor] 21394 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:31:54.998 [task-3] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:31:55.011 [task-3] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:31:58.998 [task-4] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:31:59.009 [task-4] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:32:02.998 [task-5] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:03.009 [task-5] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:32:06.998 [task-6] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:10.998 [task-7] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:14.999 [task-8] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:18.997 [task-1] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:22.997 [task-2] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:26.997 [task-3] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:31.003 [task-4] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:34.997 [task-5] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:38.997 [task-6] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:42.997 [task-7] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:46.997 [task-8] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:50.997 [task-1] 21394 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:32:51.553 [SpringApplicationShutdownHook] 21394 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:32:51.640 [SpringApplicationShutdownHook] 21394 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+03-10-2024 00:32:51.691 [SpringApplicationShutdownHook] 21394 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.
+03-10-2024 00:35:02.408 [main] 21649 INFO  c.s.cryptobot.CryptoBotApplication.logStarting - Starting CryptoBotApplication using Java 17.0.12 with PID 21649 (/home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot/build/classes/java/main started by mikhail in /home/mikhail/Рабочий стол/Проекты/p3_currency_telegram_bot)
+03-10-2024 00:35:02.422 [main] 21649 INFO  c.s.cryptobot.CryptoBotApplication.logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+03-10-2024 00:35:04.426 [main] 21649 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+03-10-2024 00:35:04.719 [main] 21649 INFO  o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn - Finished Spring Data repository scanning in 257 ms. Found 1 JPA repository interfaces.
+03-10-2024 00:35:06.425 [main] 21649 INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+03-10-2024 00:35:06.620 [main] 21649 INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate ORM core version 6.3.1.Final
+03-10-2024 00:35:06.800 [main] 21649 INFO  o.h.c.i.RegionFactoryInitiator.initiateService - HHH000026: Second-level cache disabled
+03-10-2024 00:35:07.805 [main] 21649 INFO  o.s.o.j.p.SpringPersistenceUnitInfo.addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+03-10-2024 00:35:07.895 [main] 21649 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Starting...
+03-10-2024 00:35:08.627 [main] 21649 INFO  com.zaxxer.hikari.pool.HikariPool.checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3c770db4
+03-10-2024 00:35:08.663 [main] 21649 INFO  com.zaxxer.hikari.HikariDataSource.getConnection - HikariPool-1 - Start completed.
+03-10-2024 00:35:11.858 [main] 21649 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+03-10-2024 00:35:11.923 [main] 21649 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - SQL Warning Code: 0, SQLState: 00000
+03-10-2024 00:35:11.925 [main] 21649 WARN  o.h.e.jdbc.spi.SqlExceptionHelper.logWarning - table "subscribers" does not exist, skipping
+03-10-2024 00:35:12.102 [main] 21649 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:35:15.821 [scheduling-1] 21649 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:35:15.822 [main] 21649 INFO  c.s.cryptobot.CryptoBotApplication.logStarted - Started CryptoBotApplication in 14.877 seconds (process running for 16.81)
+03-10-2024 00:35:16.525 [scheduling-1] 21649 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60904,663
+03-10-2024 00:35:16.567 [task-1] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:35:19.818 [task-2] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:35:23.819 [task-3] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:35:27.818 [task-4] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:35:31.818 [task-5] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:35:35.818 [task-6] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:35:39.818 [task-7] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:35:43.819 [task-8] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:35:47.817 [task-1] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:35:51.817 [task-2] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:35:55.817 [task-3] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:35:59.817 [task-4] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:03.817 [task-5] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:07.817 [task-6] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:11.817 [task-7] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:15.817 [task-8] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:19.817 [task-1] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:23.817 [task-2] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:27.817 [task-3] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:31.820 [task-4] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:35.820 [task-5] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:39.817 [task-6] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:43.817 [task-7] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:47.817 [task-8] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:51.817 [task-1] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:55.817 [task-2] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:36:59.817 [task-3] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:03.817 [task-4] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:07.817 [task-5] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:11.817 [task-6] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:15.816 [scheduling-1] 21649 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:37:16.195 [scheduling-1] 21649 INFO  c.s.cryptobot.service.MailingService.checkingСostBitcoin - Price bitcoin: 60822,816
+03-10-2024 00:37:16.197 [task-7] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:19.817 [task-8] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:23.817 [task-1] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:27.817 [task-2] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:31.817 [task-3] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:35.817 [task-4] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:35.845 [task-4] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:37:37.719 [my_socolova_bot Telegram Executor] 21649 INFO  c.s.cryptobot.client.BinanceClient.getBitcoinPrice - Performing client call to binanceApi to get bitcoin price
+03-10-2024 00:37:39.817 [task-5] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:39.828 [task-5] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:37:43.817 [task-6] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:43.826 [task-6] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:37:47.817 [task-7] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:47.829 [task-7] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:37:51.817 [task-8] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:51.825 [task-8] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:37:55.817 [task-1] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:37:55.830 [task-1] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:37:59.817 [task-2] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:03.817 [task-3] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:07.817 [task-4] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:11.817 [task-5] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:15.817 [task-6] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:15.930 [task-6] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:38:19.817 [task-7] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:19.935 [task-7] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:38:23.817 [task-8] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:23.936 [task-8] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - The user does not have a bitcoin subscription
+03-10-2024 00:38:27.817 [task-1] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:31.817 [task-2] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:35.819 [task-3] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:39.817 [task-4] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:43.817 [task-5] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:47.817 [task-6] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:51.817 [task-7] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:55.817 [task-8] 21649 INFO  c.s.cryptobot.service.MailingService.sendingNotificationsSubscribers - Рассылка уведомлений
+03-10-2024 00:38:58.495 [SpringApplicationShutdownHook] 21649 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+03-10-2024 00:38:58.572 [SpringApplicationShutdownHook] 21649 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown initiated...
+03-10-2024 00:38:58.586 [SpringApplicationShutdownHook] 21649 INFO  com.zaxxer.hikari.HikariDataSource.close - HikariPool-1 - Shutdown completed.

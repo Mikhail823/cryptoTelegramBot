@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: crypto-bot
+
+  jpa:
+    generate-ddl: true
+    open-in-view: true
+    hibernate:
+      ddl-auto: create-drop
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db
+    username: root
+    password: root
+    driver-class-name: org.postgresql.Driver
+    show-sql: true
+    dialect: org.hibernate.dialect.PostgreSQLDialect
+
+telegram:
+  bot:
+#    не вписывайте данные, так как можете отправить в публичный репозиторий
+#    используйте переменные среды для установки значений
+    username: my_socolova_bot
+    token: 7620218597:AAEdN9NqiMTfFWCZo8ICe1K7rJeouCpp1LQ
+    notify:
+      delay:
+        value: 10
+        unit: MINUTES
+
+binance:
+  api:
+    getPrice: https://api.binance.com/api/v3/avgPrice?symbol=BTCUSDT
